@@ -19,7 +19,7 @@
                         {{ name }}
                     </v-card-text>
                     <v-card-subtitle class="pt-4">
-                        Engineer  Developer • Cloud Computing • Photography 
+                        Engineer  Developer • Cloud Computing • Developer Movile • Photography 
                     </v-card-subtitle>
                     <v-card-text>
                         <v-list-item v-for="(item, i) in items" :key="i">
