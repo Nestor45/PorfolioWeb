@@ -13,7 +13,7 @@
             <v-toolbar-title>Portfolio</v-toolbar-title>
             <v-tooltip location="top">
                 <template v-slot:activator="{ props: tooltip }">
-                    <v-btn icon v-bind="mergeProps(tooltip)">
+                    <v-btn icon v-bind="mergeProps(tooltip)" href="#activities_sec">
                         <v-icon icon="mdi-book-open" />
                     </v-btn>
                 </template>
@@ -21,7 +21,7 @@
             </v-tooltip>
             <v-tooltip location="top">
                 <template v-slot:activator="{ props: tooltip }">
-                    <v-btn icon v-bind="mergeProps(tooltip)">
+                    <v-btn icon v-bind="mergeProps(tooltip)" href="#interests_sec">
                         <v-icon icon="mdi-briefcase-account" />
                     </v-btn>
                 </template>
@@ -30,7 +30,7 @@
 
             <v-tooltip location="top">
                 <template v-slot:activator="{ props: tooltip }">
-                    <v-btn icon v-bind="mergeProps(tooltip)">
+                    <v-btn icon v-bind="mergeProps(tooltip)" href="#interests_sec">
                         <v-icon icon="mdi-chat" />
                     </v-btn>
                 </template>
@@ -39,7 +39,7 @@
 
             <v-tooltip location="top">
                 <template v-slot:activator="{ props: tooltip }">
-                    <v-btn icon v-bind="mergeProps(tooltip)">
+                    <v-btn icon v-bind="mergeProps(tooltip)" href="#proyects_sec">
                         <v-icon icon="mdi-code-json" />
                     </v-btn>
                 </template>
@@ -48,7 +48,7 @@
         
             <v-tooltip location="top">
                 <template v-slot:activator="{ props: tooltip }">
-                    <v-btn icon v-bind="mergeProps(tooltip)">
+                    <v-btn icon v-bind="mergeProps(tooltip)" href="#contact_sec">
                         <v-icon icon="mdi-email" />
                     </v-btn>
                 </template>

@@ -18,7 +18,7 @@
       </div>
   
       <div class="px-4 py-2 bg-white text-center w-100">
-        {{ new Date().getFullYear() }} — <strong>Personal Porfolio</strong>
+        {{ new Date().getFullYear() }} — <strong>Personal Porfolio Contact by: nestoralvarez97@gmail.com or Social Redes</strong>
       </div>
     </v-footer>
 </template>

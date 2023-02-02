@@ -1,44 +1,49 @@
 <template>
     <v-container>
-        <v-card>
-            <v-row justify="space-around">
-                <v-col cols="12" sm="6" md="4">
-                    <div class="d-flex justify-center mb-6">
-                        <v-sheet class="ma-2 pa-4">
-                            <v-avatar size="200">
-                                <v-img
-                                    aspect-ratio="1.5"
-                                    src="/image00023.jpeg"
-                                ></v-img>
-                            </v-avatar>
-                        </v-sheet>
-                    </div>
-                </v-col>
-                <v-col cols="12" sm="6" md="8">
-                    <v-card-text class="text-h5 font-weight-bold">
-                        {{ name }}
-                    </v-card-text>
-                    <v-card-subtitle class="pt-4">
-                        Engineer  Developer • Cloud Computing • Developer Movile • Photography 
-                    </v-card-subtitle>
-                    <v-card-text>
-                        <v-list-item v-for="(item, i) in items" :key="i">
-                            <template v-slot:prepend>
-                                <v-icon :icon="item.icon"></v-icon>
-                            </template>
-                            <v-list-item-title v-text="item.text"></v-list-item-title>
-                        </v-list-item>
-                    </v-card-text>
-                </v-col>
-            </v-row>
-        </v-card>
+        <section>
+            <v-card id="activities_sec">
+                <v-row justify="space-around">
+                    <v-col cols="12" sm="6" md="4">
+                        <div class="d-flex justify-center mb-6">
+                            <v-sheet class="ma-2 pa-4">
+                                <v-avatar size="200">
+                                    <v-img
+                                        aspect-ratio="1.5"
+                                        src="/image00023.jpeg"
+                                    ></v-img>
+                                </v-avatar>
+                            </v-sheet>
+                        </div>
+                    </v-col>
+                    <v-col cols="12" sm="6" md="8">
+                        <v-card-text class="text-h5 font-weight-bold">
+                            {{ name }}
+                        </v-card-text>
+                        <v-card-subtitle class="pt-4">
+                            Engineer  Developer • Cloud Computing • Developer Movile • Photography 
+                        </v-card-subtitle>
+                        <v-card-text>
+                            <v-list-item v-for="(item, i) in items" :key="i">
+                                <template v-slot:prepend>
+                                    <v-icon :icon="item.icon"></v-icon>
+                                </template>
+                                <v-list-item-title v-text="item.text"></v-list-item-title>
+                            </v-list-item>
+                        </v-card-text>
+                    </v-col>
+                </v-row>
+            </v-card>
+        </section>
        
-        <Activitis></Activitis>
-        
-        <Interests></Interests>
-
-        <Proyects></Proyects>
-
+        <section id="interests_sec">
+            <Activitis></Activitis>
+        </section>
+        <section id="interests_sec">
+            <Interests></Interests>
+        </section>
+        <section id="proyects_sec">
+            <Proyects></Proyects>
+        </section>
     </v-container>
 </template>
 

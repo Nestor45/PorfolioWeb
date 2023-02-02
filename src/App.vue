@@ -15,6 +15,8 @@
         <Content></Content>
       </v-main>
     </v-card>
-    <Footer></Footer>
+    <section id="contact_sec">
+      <Footer></Footer>
+    </section>
   </v-app>
 </template>
