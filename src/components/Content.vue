@@ -4,11 +4,11 @@
             <v-row justify="space-around">
                 <v-col cols="12" sm="6" md="4">
                     <div class="d-flex justify-center mb-6">
-                        <v-sheet class="ma-2 pa-2">
+                        <v-sheet class="ma-2 pa-4">
                             <v-avatar size="200">
                                 <v-img
                                     aspect-ratio="1.5"
-                                    src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+                                    src="../../public/image00023.jpeg"
                                 ></v-img>
                             </v-avatar>
                         </v-sheet>
@@ -19,7 +19,7 @@
                         {{ name }}
                     </v-card-text>
                     <v-card-subtitle class="pt-4">
-                        Engineer  Developer • Cloud Computing•lent
+                        Engineer  Developer • Cloud Computing • Photography 
                     </v-card-subtitle>
                     <v-card-text>
                         <v-list-item v-for="(item, i) in items" :key="i">
@@ -38,7 +38,7 @@
         <Interests></Interests>
 
         <Proyects></Proyects>
-        
+
     </v-container>
 </template>
 
