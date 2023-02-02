@@ -16,14 +16,18 @@
                                 :src="card.src"
                                 cover
                             >
-                            <v-expand-transition>
-                                <div v-if="isHovering" class="d-flex transition-fast-in-fast-out bg-orange-darken-2 v-card--reveal text-h9"  style="height: 100%;">
-                                    <v-card-text>
-                                        {{ card.text }}
-                                    </v-card-text>
-                                </div>
-                            </v-expand-transition>
-                            <v-card-title> <p class="text-center text-white">{{ card.title }}</p></v-card-title>
+                                <v-expand-transition>
+                                    <div v-if="isHovering" class="d-flex transition-fast-in-fast-out bg-orange-darken-2 v-card--reveal text-h9"  style="height: 100%;">
+                                        <v-card-text>
+                                            {{ card.text }}
+                                        </v-card-text>
+                                    </div>
+                                </v-expand-transition>
+                                <v-card-actions>
+                                    <v-btn class="ms-1" icon="mdi-file-download" variant="text" :href="card.link"></v-btn>
+                                </v-card-actions>
+                                <v-card-title> <p class="text-center text-white">{{ card.title }}</p></v-card-title>
+
                             </v-img>
                         </v-card>
                     </v-hover>
@@ -36,10 +40,10 @@
 <script setup>
 
     const cards = [
-        { title: 'Elevator Pitch', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3, text:'ALGO DE ELEVATOR' },
-        { title: 'The Business Report', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 3, text:'ALGO DE BUSINESS'},
-        { title: 'The Persuasive Speech', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 3, text:'ALGO DE PERSUASIVE'},
-        { title: 'Résumé', src: 'https://images.unsplash.com/photo-1429514513361-8fa32282fd5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3264&q=80', flex: 3, text:'ALGO DE RÉSUMÉ' },
+        { title: 'Elevator Pitch', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3, text:'ALGO DE ELEVATOR', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EezoJycSdKhGvpesrNhx3dYBSFVmUR5Mzn9KcI4jzmKRzQ?e=2qp8dZ' },
+        { title: 'The Business Report', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 3, text:'ALGO DE BUSINESS', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EezoJycSdKhGvpesrNhx3dYBSFVmUR5Mzn9KcI4jzmKRzQ?e=2qp8dZ'},
+        { title: 'CV', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 3, text:'ALGO DE PERSUASIVE', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EckKfkb5P4hHq2LwBTatNHwBUX76eNGc8JD0hvzDKr6urA?e=gfSOtw'},
+        { title: 'Résumé', src: 'https://images.unsplash.com/photo-1429514513361-8fa32282fd5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3264&q=80', flex: 3, text:'ALGO DE RÉSUMÉ', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EckKfkb5P4hHq2LwBTatNHwBUX76eNGc8JD0hvzDKr6urA?e=gfSOtw'},
         
     ]
 

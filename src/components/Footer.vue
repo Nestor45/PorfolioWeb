@@ -1,7 +1,7 @@
 <template>
     <v-footer class="d-flex flex-column" color="teal-lighten-4">
       <div class="d-flex w-100 align-center px-4">
-        <strong>Thanks for your view and time!</strong>
+        <strong>Thanks for your view and time!  Images by: pixabay.com and Vuetify</strong>
   
         <v-spacer></v-spacer>
   
@@ -14,7 +14,7 @@
           size="small"
           :href="icon.link"
         ></v-btn>
-        
+
       </div>
   
       <div class="px-4 py-2 bg-white text-center w-100">

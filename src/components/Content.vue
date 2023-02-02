@@ -8,7 +8,7 @@
                             <v-avatar size="200">
                                 <v-img
                                     aspect-ratio="1.5"
-                                    src="../../public/image00023.jpeg"
+                                    src="/image00023.jpeg"
                                 ></v-img>
                             </v-avatar>
                         </v-sheet>
