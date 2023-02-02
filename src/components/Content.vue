@@ -36,6 +36,9 @@
         <Activitis></Activitis>
         
         <Interests></Interests>
+
+        <Proyects></Proyects>
+        
     </v-container>
 </template>
 
@@ -43,6 +46,7 @@
 import { ref } from 'vue';
     import Activitis from '../components/Activities.vue'
     import Interests from './Interests.vue';
+    import Proyects from './Proyects.vue';
     const reveal = ref(true)
     const name = "Nestor A. Álvarez García"
     const items = [
