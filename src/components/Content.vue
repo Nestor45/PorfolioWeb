@@ -35,12 +35,14 @@
        
         <Activitis></Activitis>
         
+        <Interests></Interests>
     </v-container>
 </template>
 
 <script setup>
 import { ref } from 'vue';
     import Activitis from '../components/Activities.vue'
+    import Interests from './Interests.vue';
     const reveal = ref(true)
     const name = "Nestor A. Álvarez García"
     const items = [

@@ -1,9 +1,7 @@
 <template>
     <v-main>
         <div>
-            <p class="text-left text-h5">
-                Activities
-            </p>
+            <p class="text-left text-h5"> Activities </p>
         </div>
         <v-divider></v-divider>
         <v-container fluid>
