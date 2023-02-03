@@ -17,9 +17,9 @@
                                     <v-card-text class="text-h5 font-weight-bold">
                                         {{ name }}
                                     </v-card-text>
-                                    <v-card-subtitle>
+                                    <p style="color:rgb(152, 150, 149 )">
                                         Engineer  Developer • Cloud Computing • Developer Movile • Photography 
-                                    </v-card-subtitle>
+                                    </p>
                                     <v-list-item v-for="(item, i) in items" :key="i">
                                         <div class="text-h9 flex-grow-1 text-center">
                                             <p>{{item.text}}</p>
