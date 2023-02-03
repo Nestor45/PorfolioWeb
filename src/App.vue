@@ -9,12 +9,10 @@
 
 <template>
   <v-app :theme="theme">
-    <v-card max-width="1200px" class="mx-auto">
       <Layout></Layout>
       <v-main class="text-center">
         <Content></Content>
       </v-main>
-    </v-card>
     <section id="contact_sec">
       <Footer></Footer>
     </section>
