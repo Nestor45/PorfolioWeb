@@ -1,7 +1,7 @@
 <template>
     <v-main>
         <div>
-            <p class="text-left text-h5"> Interests </p>
+            <p class="text-left text-h5"> Interests (Click me)</p>
         </div>
         <v-divider></v-divider>
         <v-item-group>
@@ -22,7 +22,7 @@
                                     {{ isSelected   ? `${item.text}` : `` }}
                                     <v-icon size="large" :icon=item.icon v-if="!isSelected"></v-icon> 
                                 </div>
-                                </v-card>
+                            </v-card>
                         </v-item>
                     </v-col>
                 </v-row>

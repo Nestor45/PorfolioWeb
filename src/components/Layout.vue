@@ -64,13 +64,17 @@
 
 <script setup>
     import { mergeProps, ref } from 'vue'
+
+    //const theme2 = computed(()=>{ store.state.theme })
+
     const merged = mergeProps()
 
     const theme = ref('light')
+
     const onClick = () => {
         theme.value = theme.value === 'light' ? 'dark' : 'light'
         console.log(theme.value)
         return theme.value
     }
-
+    
 </script>
