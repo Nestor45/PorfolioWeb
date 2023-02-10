@@ -4,12 +4,15 @@
   import Layout from './components/Layout.vue';
   import Footer from './components/Footer.vue';
 
-  const theme = ref('light')
+  import { useStore } from 'vuex'
+  const store = useStore()
 
+  const theme = ref('light')
+  console.log("Hola desde App", store.state.theme)
 </script>
 
 <template>
-  <v-app :theme="theme">
+  <v-app :theme=store.state.theme>
       <Layout></Layout>
       <v-main class="text-center">
         <Content></Content>

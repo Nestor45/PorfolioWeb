@@ -1,6 +1,7 @@
 export default {
     state: {
-        theme: 'light'
+        theme: 'light',
+        loquesea: true
     },
     getters: {
         getTheme(state) {
