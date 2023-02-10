@@ -40,10 +40,10 @@
 <script setup>
 
     const cards = [
-        { title: 'Elevator Pitch', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3, text:'ALGO DE ELEVATOR', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EezoJycSdKhGvpesrNhx3dYBSFVmUR5Mzn9KcI4jzmKRzQ?e=2qp8dZ' },
-        { title: 'The Business Report', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 3, text:'ALGO DE BUSINESS', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EezoJycSdKhGvpesrNhx3dYBSFVmUR5Mzn9KcI4jzmKRzQ?e=2qp8dZ'},
-        { title: 'CV', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 3, text:'ALGO DE PERSUASIVE', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EckKfkb5P4hHq2LwBTatNHwBUX76eNGc8JD0hvzDKr6urA?e=gfSOtw'},
-        { title: 'Résumé', src: 'https://images.unsplash.com/photo-1429514513361-8fa32282fd5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3264&q=80', flex: 3, text:'ALGO DE RÉSUMÉ', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EckKfkb5P4hHq2LwBTatNHwBUX76eNGc8JD0hvzDKr6urA?e=gfSOtw'},
+        { title: 'Elevator Pitch', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3, text:'I LIKE TO CREATE NEW THINGS, MEET NEW PEOPLE AND NEW PLACES', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EezoJycSdKhGvpesrNhx3dYBSFVmUR5Mzn9KcI4jzmKRzQ?e=2qp8dZ' },
+        { title: 'The Business Report', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',flex: 3, text:'WHY ARE BOOKS IMPORTANT TO US? ', link: 'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EdFz_iIkaqhMh3A1UTVGsjMBrhAlCJwQljYEDlzSmPC6IA?e=7jsgQz'},
+        { title: 'CV', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 3, text:'THIS IS MY CV', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EckKfkb5P4hHq2LwBTatNHwBUX76eNGc8JD0hvzDKr6urA?e=gfSOtw'},
+        { title: 'Résumé', src: 'https://images.unsplash.com/photo-1429514513361-8fa32282fd5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3264&q=80', flex: 3, text:'THIS IS MY RÉSUMÉ', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/EckKfkb5P4hHq2LwBTatNHwBUX76eNGc8JD0hvzDKr6urA?e=gfSOtw'},
         
     ]
 

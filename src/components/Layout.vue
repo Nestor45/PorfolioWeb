@@ -74,6 +74,7 @@
     const onClick = () => {
         theme.value = theme.value === 'light' ? 'dark' : 'light'
         console.log(theme.value)
+        console.log(store.stare.theme)
         return theme.value
     }
     
