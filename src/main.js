@@ -13,8 +13,6 @@ import '@mdi/font/css/materialdesignicons.css'
 
 const store = createStore(StoreData);
 
-console.log(store)
-
 const vuetify = createVuetify({
     components,
     directives,

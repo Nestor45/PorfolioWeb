@@ -8,7 +8,6 @@
   const store = useStore()
 
   const theme = ref('light')
-  console.log("Hola desde App", store.state.theme)
 </script>
 
 <template>

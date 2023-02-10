@@ -65,7 +65,7 @@
 <script setup>
     import { mergeProps, ref } from 'vue'
     import { useStore } from 'vuex'
-    //const theme2 = computed(()=>{ store.state.theme })
+    
     const store = useStore()
 
     const merged = mergeProps()
@@ -74,7 +74,6 @@
 
     const onClick = () => {
         theme.value = theme.value === 'light' ? 'dark' : 'light'
-        console.log(theme.value)
         store.commit('updateTheme', theme.value)
         return theme.value
     }
