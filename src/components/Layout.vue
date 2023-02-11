@@ -65,7 +65,7 @@
 <script setup>
     import { mergeProps, ref } from 'vue'
     import { useStore } from 'vuex'
-    
+
     const store = useStore()
 
     const merged = mergeProps()
