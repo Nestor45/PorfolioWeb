@@ -17,12 +17,14 @@
                                     <v-card-text class="text-h5 font-weight-bold">
                                         {{ name }}
                                     </v-card-text>
+
                                     <p style="color:rgb(152, 150, 149 )">
-                                        Engineer  Developer • Cloud Computing • Developer Movile • Photography 
+                                        {{ skills }}
                                     </p>
+                                    
                                     <v-list-item v-for="(item, i) in items" :key="i">
                                         <div class="text-h9 flex-grow-1 text-center">
-                                            <p>{{item.text}}</p>
+                                             <p><strong>{{ item.title }}</strong>{{ item.text }} </p>
                                         </div>
                                         <template v-slot:prepend>
                                             <v-icon :icon="item.icon"></v-icon>
@@ -55,10 +57,11 @@ import { ref } from 'vue';
     const reveal = ref(true)
     const name = "Nestor A. Álvarez García"
     const items = [
-        { text: 'Experience Level: 3+ years', icon: 'mdi-clock' },
-        { text: 'Interested In: Cybersegurity, Cloud Computing, IA', icon: 'mdi-account' },
-        { text: 'Intermedie Skills: Python, Java, Laravel, VueJS, AWS Cloud,', icon: 'mdi-flag' },
-        { text: 'Linux, MySQL | Basic: NodeJS, MongoDB, English A2'},
+        { title: 'Experience Level: ' , text: '3+ years', icon: 'mdi-clock' },
+        { title: 'Skills: ',  text: 'Laravel, VueJS, AWS Cloud,', icon: 'mdi-flag' },
+        { title: 'Intermedie Skills: ',text: 'Python, Java, Linux, MySQL'},
+        { title: 'Basic Skills: ', text: 'NodeJS, MongoDB, English A2'},
+        { title: 'Interested In: ', text: ' Cybersegurity, Cloud Computing and IA', icon: 'mdi-account' },
     ]
-
+    const skills = "Engineer Developer • Cloud Computing • Photography "
 </script>
