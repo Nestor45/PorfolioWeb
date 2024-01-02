@@ -57,7 +57,7 @@ import { ref } from 'vue';
     const reveal = ref(true)
     const name = "Nestor A. Álvarez García"
     const items = [
-        { title: 'Experiencia: ' , text: '3+ years', icon: 'mdi-clock' },
+        { title: 'Experiencia: ' , text: '3+ años', icon: 'mdi-clock' },
         { title: 'Habilidades: ',  text: 'Laravel, VueJS, AWS Cloud,', icon: 'mdi-flag' },
         { title: 'Habilidades medias: ',text: 'Python, Java, Linux, MySQL'},
         { title: 'Habilidades básicas: ', text: 'NodeJS, MongoDB, English A2'},
