@@ -1,7 +1,7 @@
 <template>
     <v-footer class="d-flex flex-column pa-2" color="teal-lighten-4" :class="{ 'justify-center': $vuetify.breakpoint }">
       <div class="d-flex w-100 align-center px-4">
-        <strong>Thanks for your view and time!  Images by: pixabay.com and Vuetify</strong>
+        <strong>Gracias por el tiempo de observar -   Images de: pexels.com and Vuetify</strong>
   
         <v-spacer></v-spacer>
   
@@ -18,7 +18,7 @@
       </div>
   
       <div class="px-4 py-2 bg-white text-center w-100">
-        {{ new Date().getFullYear() }} — <strong>Personal Portfolio Contact by: nestoralvarez97@gmail.com or Social Redes</strong>
+        {{ new Date().getFullYear() }} — <strong>Portfolio - Contact: nestoralvarez97@gmail.com o por redes sociales</strong>
       </div>
     </v-footer>
 </template>
