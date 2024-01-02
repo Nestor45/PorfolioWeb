@@ -40,10 +40,10 @@
 <script setup>
 
     const cards = [
-        { title: 'Red Social', icon: 'mdi-laravel', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3, text:'Idea de red social por clasificación', link:'https://github.com/Nestor45/blogpho' },
-        { title: 'Api SpaceX', icon: 'mdi-angular', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',flex: 3, text:'Api consumida con Angular', link: 'https://github.com/Nestor45/Api-spaceX'},
-        { title: 'CV', icon: 'mdi-auto-download', src: 'https://images.pexels.com/photos/5915156/pexels-photo-5915156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', flex: 3, text:'THIS IS MY CV', link:'https://drive.google.com/file/d/1j4JJ5zIXWM5F0O-ISQa2pAz8PdJ7TKf0/view'},
-        { title: 'Résumé', icon: 'mdi-account-tie-voice', src: 'https://images.pexels.com/photos/19582452/pexels-photo-19582452/free-photo-of-libros-biblioteca-educacion-conocimiento.jpeg', flex: 3, text:'THIS IS MY RÉSUMÉ', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/ETCbGOzUSqdJhQ0UBCUYtCUB9I1Ye6c8sVcTigZ1sh3CfQ?e=R7CL95'},
+        { title: 'Red Social', icon: 'mdi-laravel', src: 'https://cdn.vuetifyjs.com/images/cards/house.jpg', flex: 3, text:'Idea de red social por clasificación, usando LARAVAL, VUEJS Y MYSQL', link:'https://github.com/Nestor45/blogpho' },
+        { title: 'Api SpaceX', icon: 'mdi-angular', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',flex: 3, text:'Api consumida con Angular, con filtro y carga por scroll', link: 'https://github.com/Nestor45/Api-spaceX'},
+        { title: 'CV', icon: 'mdi-auto-download', src: 'https://images.pexels.com/photos/5915156/pexels-photo-5915156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', flex: 3, text:'Cv con las experiencias que he tenido', link:'https://drive.google.com/file/d/1j4JJ5zIXWM5F0O-ISQa2pAz8PdJ7TKf0/view'},
+        { title: 'Résumé', icon: 'mdi-account-tie-voice', src: 'https://images.pexels.com/photos/19582452/pexels-photo-19582452/free-photo-of-libros-biblioteca-educacion-conocimiento.jpeg', flex: 3, text:'Este es mi RÉSUMÉ con objetivos que tengo', link:'https://iteso01-my.sharepoint.com/:w:/g/personal/nestor_alvarez_iteso_mx/ETCbGOzUSqdJhQ0UBCUYtCUB9I1Ye6c8sVcTigZ1sh3CfQ?e=R7CL95'},
         
     ]
 
