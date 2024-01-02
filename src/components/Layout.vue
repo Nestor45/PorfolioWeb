@@ -17,7 +17,7 @@
                     <v-icon icon="mdi-book-open" />
                 </v-btn>
             </template>
-            <span>Who I am</span>
+            <span>Quién soy</span>
         </v-tooltip>
         <v-tooltip location="top">
             <template v-slot:activator="{ props: tooltip }">
@@ -25,7 +25,7 @@
                     <v-icon icon="mdi-briefcase-account" />
                 </v-btn>
             </template>
-            <span>Portfolio</span>
+            <span>Actividades</span>
         </v-tooltip>
 
         <v-tooltip location="top">
@@ -34,7 +34,7 @@
                     <v-icon icon="mdi-chat" />
                 </v-btn>
             </template>
-            <span>Interest</span>
+            <span>Intereses</span>
         </v-tooltip>
 
         <v-tooltip location="top">
@@ -43,7 +43,7 @@
                     <v-icon icon="mdi-code-json" />
                 </v-btn>
             </template>
-            <span>Projects</span>
+            <span>Proyectos</span>
         </v-tooltip>
     
         <v-tooltip location="top">
