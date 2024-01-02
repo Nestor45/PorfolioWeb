@@ -60,7 +60,7 @@ import { ref } from 'vue';
         { title: 'Experiencia: ' , text: '3+ years', icon: 'mdi-clock' },
         { title: 'Habilidades: ',  text: 'Laravel, VueJS, AWS Cloud,', icon: 'mdi-flag' },
         { title: 'Habilidades medias: ',text: 'Python, Java, Linux, MySQL'},
-        { title: 'Habilidades basicas: ', text: 'NodeJS, MongoDB, English A2'},
+        { title: 'Habilidades básicas: ', text: 'NodeJS, MongoDB, English A2'},
         { title: 'Intereses: ', text: ' Cybersegurity, Cloud Computing and IA', icon: 'mdi-account' },
     ]
     const skills = "Developer • Cloud Computing • Fotografía "
