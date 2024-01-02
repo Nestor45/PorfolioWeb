@@ -1,7 +1,7 @@
 <template>
     <v-footer class="d-flex flex-column pa-2" color="teal-lighten-4" :class="{ 'justify-center': $vuetify.breakpoint }">
       <div class="d-flex w-100 align-center px-4">
-        <strong>Gracias por el tiempo de observar -   Images de: pexels.com and Vuetify</strong>
+        <strong>Gracias por el tiempo de observar -   Images de: pexels.com y Vuetify</strong>
   
         <v-spacer></v-spacer>
   
