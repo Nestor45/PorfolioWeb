@@ -1,9 +1,9 @@
 <template>
     <v-main>
-        <div>
-            <p class="text-left text-h5"> Interests (Click me)</p>
-        </div>
         <v-divider></v-divider>
+        <div>
+            <h1 class="text-center"> Intereses (Click me)</h1>
+        </div>
         <v-item-group>
             <v-container fluid>
                 <v-row justify="space-around">
@@ -33,10 +33,10 @@
 
 <script setup>
     const items = [
-        { text:'Books: El resplandor, Batallas en el desierto, Juego de tronos I ...Others', icon:'mdi-book'},
-        { text:'Music: Developing: Radio Linking Park | Studying: Jazz Relax and Lofi Beeats', icon:'mdi-music'},
-        { text:'Movies: Interstellar, Forrest Gump, Top Gun 1 and 2 and Sherk', icon:'mdi-movie'},
-        { text:'Favorites Animals: Dogs, Cats, Chickens and Horses ', icon:'mdi-cow'},
-        { text:'Cities: Oaxaca, San Luis Posotí, Puebla, Michoacán and Veracruz', icon:'mdi-airport'},
+        { text:'Libros: El resplandor, Batallas en el desierto, Boulevard ...Otros', icon:'mdi-book'},
+        { text:'Musica: Linking Park, Jazz Relax, Lofi Beeats, Regional Mexicano', icon:'mdi-music'},
+        { text:'Peliculas: Interstellar, Forrest Gump, Top Gun 1 - 2 and Sherk', icon:'mdi-movie'},
+        { text:'Animales Favitos: 🐕‍🦺, 🐈, 🐓 y 🐴 ', icon:'mdi-cow'},
+        { text:'Ciudades Visitadas de México: Oaxaca, San Luis Posotí, Puebla, Michoacán, Veracruz, Chiapas', icon:'mdi-airport'},
     ]
 </script>

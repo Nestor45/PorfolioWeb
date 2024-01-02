@@ -1,9 +1,9 @@
 <template>
     <v-main>
-        <div>
-            <p class="text-left text-h5"> Activities </p>
-        </div>
         <v-divider></v-divider>
+        <div>
+            <h1 class="text-center"> Actividades </h1>
+        </div>
         <v-item-group>
             <v-container fluid>
                 <v-row justify="space-around">
@@ -18,8 +18,8 @@
                             </v-img>
                             <v-card-title> <p class="text-center">Developer</p></v-card-title>
                             <v-card-text>
-                                I really like coding: VueJS and Python <br>
-                                I always enjoy collaborate and try new challenges.
+                                Me gusta mucho codificar: VueJS y Python. <br>
+                                Siempre disfruto colaborar y estar en nuevos desafíos o retos. 
                             </v-card-text>
                         </v-card>
                         <div class="mt-4 text-subtitle-2"></div>
@@ -33,24 +33,9 @@
                             </v-img>
                             <v-card-title> <p class="text-center">Cloud Computing</p></v-card-title>
                             <v-card-text>
-                                It's one of the nice new areas I'm learning in,<br>
-                                this technology is one of my favorites because <br>
-                                it's scalable and efficient for many purposes.
-                            </v-card-text>
-                        </v-card>
-                        <div class="mt-4 text-subtitle-2"></div>
-                        <v-card class="">
-                            <v-img
-                                class="align-end"
-                                height="200"
-                                src="/geometric-gc2eb57291_1920.jpg"
-                                cover
-                            ></v-img>
-                            <v-card-title><p class="text-center">Good Learner</p></v-card-title>
-                            <v-card-text>
-                                I like to be learning new technologies,<br>
-                                I also like to read cybersecurity and <br>
-                                artificial intelligence blogs.
+                                Es una de las nuevas áreas interesantes en las que estoy aprendiendo,<br>
+                                esta tecnología es una de mis favoritas porque <br>
+                                es escalable y eficiente para muchos propósitos.
                             </v-card-text>
                         </v-card>
                     </v-col>
