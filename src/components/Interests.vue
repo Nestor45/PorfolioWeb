@@ -34,9 +34,9 @@
 <script setup>
     const items = [
         { text:'Libros: El resplandor, Batallas en el desierto, Boulevard ...Otros', icon:'mdi-book'},
-        { text:'Musica: Linking Park, Jazz Relax, Lofi Beeats, Regional Mexicano', icon:'mdi-music'},
+        { text:'Música: Linking Park, Jazz Relax, Lofi Beeats, Regional Mexicano', icon:'mdi-music'},
         { text:'Peliculas: Interstellar, Forrest Gump, Top Gun 1 - 2 and Sherk', icon:'mdi-movie'},
-        { text:'Animales Favitos: 🐕‍🦺, 🐈, 🐓 y 🐴 ', icon:'mdi-cow'},
+        { text:'Animales Favoritos: 🐕‍🦺, 🐈, 🐓 y 🐴 ', icon:'mdi-cow'},
         { text:'Ciudades Visitadas de México: Oaxaca, San Luis Posotí, Puebla, Michoacán, Veracruz, Chiapas', icon:'mdi-airport'},
     ]
 </script>
