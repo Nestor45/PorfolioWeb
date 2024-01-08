@@ -58,10 +58,10 @@ import { ref } from 'vue';
     const name = "Nestor A. Álvarez García"
     const items = [
         { title: 'Experiencia: ' , text: '3+ años', icon: 'mdi-clock' },
-        { title: 'Habilidades: ',  text: 'Laravel, VueJS, AWS Cloud,', icon: 'mdi-flag' },
-        { title: 'Habilidades medias: ',text: 'Python, Java, Linux, MySQL'},
-        { title: 'Habilidades básicas: ', text: 'NodeJS, MongoDB, English A2'},
-        { title: 'Intereses: ', text: ' Cybersegurity, Cloud Computing and IA', icon: 'mdi-account' },
+        { title: 'Skills: ',  text: 'Laravel, VueJS, AWS Cloud,', icon: 'mdi-flag' },
+        { title: 'Skills medias: ',text: 'Java, MySQL, Linux, Python'},
+        { title: 'Skills básicas: ', text: 'NodeJS, MongoDB, English A2'},
+        { title: 'Intereses: ', text: ' Cybersegurity, Cloud Computing y IA', icon: 'mdi-account' },
     ]
     const skills = "Developer • Cloud Computing • Fotografía "
 </script>
