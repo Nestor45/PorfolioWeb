@@ -18,7 +18,7 @@
       </div>
   
       <div class="px-4 py-2 bg-white text-center w-100">
-        {{ new Date().getFullYear() }} — <strong>Portfolio - Contact: nestoralvarez97@gmail.com o por redes sociales</strong>
+        {{ new Date().getFullYear() }} — <strong> Contacto: nestoralvarez97@gmail.com o por redes sociales</strong>
       </div>
     </v-footer>
 </template>
@@ -27,7 +27,6 @@
     const icons = [
         { mdi:'mdi-linkedin', link:'http://www.linkedin.com/in/nestor-álvarez-b8a750227/'},
         { mdi:'mdi-github', link:'https://github.com/Nestor45'},
-        { mdi:'mdi-twitter', link:'http://www.twitter.com/Nestor_a45'},
         { mdi:'mdi-instagram', link:"http://www.instagram.com/alvareznestor26"},
     ]
 </script>

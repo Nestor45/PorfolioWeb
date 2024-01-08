@@ -23,7 +23,7 @@
                                         </v-card-text>
                                     </div>
                                 </v-expand-transition>
-                                <v-card-title> <p class="text-center text-white">{{ card.title }}</p></v-card-title>
+                                <v-card-title><p class="text-center text-white">{{ card.title }}</p></v-card-title>
                                 <v-card-actions>
                                     <v-btn class="text-center text-white" :icon="card.icon" variant="text" :href="card.link"></v-btn>
                                 </v-card-actions>
@@ -49,13 +49,20 @@
 
 </script>
 
-<style>
-  .v-card--reveal {
-    align-items: center;
-    bottom: 0;
-    justify-content: center;
-    opacity: .9;
-    position: absolute;
-    width: 100%;
-  }
+<style scoped>
+    .v-card--reveal {
+        align-items: center;
+        bottom: 0;
+        justify-content: center;
+        opacity: .9;
+        position: absolute;
+        width: 100%;
+    }
+
+    @media (max-width: 600px) {
+    /* Estilos para dispositivos más pequeños */
+    .text-white {
+        font-size: 11px; /* Ajusta el tamaño del texto para dispositivos más pequeños */
+    }
+    }
 </style>
