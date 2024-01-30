@@ -62,7 +62,7 @@ import { ref } from 'vue';
         { title: ' ',text: 'Java Spring, SQL, Linux, Docker'},
         { title: 'Skills básicas: ', text: 'Python, NodeJS, MongoDB, AWS Cloud, English A2'},
         { title: 'Intereses: ', text: ' Cybersegurity, Cloud Computing y IA', icon: 'mdi-account' },
-        { title: 'Porfolio: ', text: 'Desarrollé este portafolio con VueJS, desplegado en Versel y gestionado con CI/CD a través de GitHub', icon: 'mdi-all-inclusive' },
+        { title: 'Porfolio: ', text: 'Desarrollé este portafolio con VueJS, desplegado en Vercel y gestionado con CI/CD a través de GitHub', icon: 'mdi-all-inclusive' },
     ]
     const email = "nestoralvarez97@gmail.com "
 </script>
