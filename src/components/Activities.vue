@@ -18,8 +18,13 @@
                             </v-img>
                             <v-card-title> <p class="text-center">Developer</p></v-card-title>
                             <v-card-text>
-                                Me gusta mucho codificar: VueJS y Python. <br>
-                                Siempre disfruto colaborar y estar en nuevos desafíos o retos. 
+                                Tengo experiencia en programación del lado del backend, 
+                                especialmente en Java con el framework Spring, así como en PHP con Laravel. 
+                                También poseo habilidades en Python. En el ámbito del frontend, 
+                                me siento especialmente cómodo trabajando con VueJs, aunque también tengo conocimientos en Angular. 
+                                Me entusiasma participar en colaboraciones y enfrentar nuevos desafíos. 
+                                Estoy constantemente buscando oportunidades para ampliar mis habilidades y contribuir de manera 
+                                significativa en proyectos innovadores 
                             </v-card-text>
                         </v-card>
                         <div class="mt-4 text-subtitle-2"></div>
