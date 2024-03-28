@@ -18,7 +18,7 @@
       </div>
   
       <div class="px-4 py-2 bg-white text-center w-100">
-        {{ new Date().getFullYear() }} — <strong> Contacto: nestoralvarez97@gmail.com o por redes sociales</strong>
+        {{ new Date().getFullYear() }} — <strong> Contacto: nestoralvarez97@gmail.com ó nestorambrosioalvarezgarcia@gmail.com y por redes sociales</strong>
       </div>
     </v-footer>
 </template>
