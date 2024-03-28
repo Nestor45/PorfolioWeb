@@ -57,12 +57,12 @@ import { ref } from 'vue';
     const reveal = ref(true)
     const name = "Nestor A. Álvarez García"
     const items = [
-        { title: 'Experiencia: ' , text: '3+ años', icon: 'mdi-clock' },
-        { title: 'Skills: ',  text: 'Laravel, VueJS,', icon: 'mdi-flag' },
-        { title: ' ',text: 'Java Spring, SQL, Linux, Docker'},
+        { title: 'Experiencia: ' , text: '4+ años', icon: 'mdi-clock' },
+        { title: 'Skills: ',  text: 'Java, Laravel, VueJS, Angular', icon: 'mdi-flag' },
+        { title: ' ',text: 'Spring, SQL, Linux, Docker'},
         { title: 'Skills básicas: ', text: 'Python, NodeJS, MongoDB, AWS Cloud, English A2'},
         { title: 'Intereses: ', text: ' Cybersegurity, Cloud Computing y IA', icon: 'mdi-account' },
         { title: 'Porfolio: ', text: 'Desarrollé este portafolio con VueJS, desplegado en Vercel y gestionado con CI/CD a través de GitHub', icon: 'mdi-all-inclusive' },
     ]
-    const email = "nestoralvarez97@gmail.com "
+    const email = "nestoralvarez97@gmail.com ó nestorambrosioalvarezgarcia@gmail.com"
 </script>
